@@ -272,7 +272,7 @@ input[type="password"] {
 .home {
   padding: 1rem;
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem auto;
   background: #fff;
 }
 
@@ -544,7 +544,6 @@ input[type="password"] {
   .service-content {
     width: 90%;
     margin-left: 3rem;
-    color: red;
   }
 
   .service-content h3 {
