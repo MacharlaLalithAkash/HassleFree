@@ -46,9 +46,9 @@ h3 {
   font-size: 2.4rem;
 }
 
-p {
+/* p {
   margin: 3rem;
-}
+} */
 
 a {
   cursor: pointer;
@@ -422,6 +422,53 @@ input[type="password"] {
   text-decoration: none;
 }
 
+#about {
+  background: #fff;
+  padding: 1rem;
+}
+
+.about-heading {
+  margin-left: 3rem;
+}
+
+.about-image {
+  object-fit: cover;
+  width: 25rem;
+  height: 27rem;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.role {
+  position: relative;
+  width: 25rem;
+  height: 27rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.role-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  background: var(--color-hover);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.role:hover .about-image {
+  opacity: 0.2;
+}
+
+.role:hover .role-content {
+  opacity: 1;
+}
+
 @media screen and (min-width: 1024px) {
   .forgot-password {
     margin-left: 17rem;
@@ -504,7 +551,7 @@ input[type="password"] {
 
   .home-image {
     width: 40vw;
-    /* margin: 1rem 1rem 1rem 30rem; */
+    margin: 1rem 1rem 1rem 30rem;
     margin-left: 5vw;
   }
 
@@ -555,7 +602,7 @@ input[type="password"] {
     margin: 2rem auto;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 40rem);
+    grid-template-columns: repeat(3, 40rem);
     justify-content: center;
     align-content: center;
     grid-gap: 1rem 2rem;
@@ -563,6 +610,11 @@ input[type="password"] {
 
   .feature {
     margin-bottom: 0;
+  }
+
+  .last-feature {
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 
   .contact-us {
