@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>MedicalShopManger</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <img src="images/refined.png" alt="" class="hassle-free-logo" />
+
+      <button class="btn btn--menu" onclick="activate()">Menu</button>
+      <ul class="nav-items-mobile" id="active">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="index.html#service">Services</a></li>
+        <li class="nav-item">About</li>
+        <li class="nav-item">Testimonials</li>
+        <li class="nav-item"><a href="signin.html">SignIn</a></li>
+      </ul>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="index.html#service">Services</a></li>
+        <li class="nav-item">About</li>
+        <li class="nav-item">Testimonials</li>
+        <li class="nav-item"><a href="signin.html">SignIn</a></li>
+      </ul>
+    </div>
+
+    <div class="home">
+      <img
+        src="images/home.png"
+        alt="Medical-Shop ambience"
+        class="home-image"
+      />
+      <div class="home-content">
+        <h3>Wanna be Hassle Free with your Pharmacy?</h3>
+        <p>
+          Use <span class="highlight">"HassleFree"</span>! And manage your
+          pharmacy on the go.
+        </p>
+        <button class="btn btn--signup"><a href="signup.html">Sign Up</a></button>
+      </div>
+    </div>
+
+    <div id="service">
+      <img
+        src="images/aboutimage.jpg"
+        alt="about the work"
+        class="service-image"
+      />
+      <div class="service-content">
+        <h3>What do we do?</h3>
+        <p>
+          Medical shop management is not an easy task. Coming to the present
+          scenario in the global pandemic covid19, pharmacy management has become
+          much more difficult. <br /><br />Under these consequences, we
+          <span class="highlight">"HasselFree"</span> sharpen our mind to get the
+          new pharmacy management system with digital technology. <br /><br />You
+          can locate the medicines in your pharmacy, check the stock and restock
+          if required. By this, you can reduce the manpower in your pharmacy and
+          save your money.
+        </p>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <h4>Locate Medicines</h4>
+        <p>
+          Locate any medicine in the stock precisely without moving away from the
+          desk.
+        </p>
+      </div>
+      <div class="feature">
+        <h4>Generate Bill</h4>
+        <p>
+          Bill the medicines automatically, save the bill digitally and calculate
+          your daily profits.
+        </p>
+      </div>
+      <div class="feature">
+        <h4>Refill Stock</h4>
+        <p>
+          Get notified when a refill is required. Generate a report of stock sold
+          every day.
+        </p>
+      </div>
+      <div class="feature">
+        <h4>Monthly Report</h4>
+        <p>
+          Generate report every month automatically. Manage and increase your
+          profits.
+        </p>
+      </div>
+    </div>
+
+    <div class="contact-us">
+      <div class="contactus-heading">
+        <h3>CONTACT US</h3>
+      </div>
+      <div class="contactus-form">
+        <form action="#" class="form">
+          <input type="text" class="input" placeholder="Your Name" />
+          <input type="email" class="input" placeholder="Email" />
+          <textarea placeholder="Comment..." class="input comment"></textarea>
+          <input type="submit" class="input input-login" value="Send" />
+        </form>
+      </div>
+      <div class="contactus-social">
+        <div class="social-media">
+          <a href=""
+            ><img
+              src="logo/instagram.svg"
+              alt="instagram logo"
+              class="social-icon"
+          /></a>
+          <a href=""
+            ><img
+              src="logo/facebook.svg"
+              alt="instagram logo"
+              class="social-icon"
+          /></a>
+          <a href=""
+            ><img src="logo/twitter.svg" alt="instagram logo" class="social-icon"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
