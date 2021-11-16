@@ -544,6 +544,7 @@ input[type="password"] {
   .service-content {
     width: 90%;
     margin-left: 3rem;
+    color: red;
   }
 
   .service-content h3 {
