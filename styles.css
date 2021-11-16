@@ -272,7 +272,7 @@ input[type="password"] {
 .home {
   padding: 1rem;
   text-align: center;
-  margin: 2rem auto;
+  margin: 2rem 0;
   background: #fff;
 }
 
@@ -494,7 +494,7 @@ input[type="password"] {
   .home {
     width: 97%;
     border-radius: var(--border-radius);
-    /* margin: 2rem auto; */
+    margin: 2rem auto;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 60rem 1fr;
@@ -510,12 +510,8 @@ input[type="password"] {
 
   .home-content {
     width: 80%;
-    /* float: right; */
     text-align: left;
-    /* padding: 10rem;
-    padding-left: 0; */
-    /* margin-left: 10rem; */
-    /* color: blue; */
+    margin-left: 10rem; 
   }
 
   .home-content h3 {
