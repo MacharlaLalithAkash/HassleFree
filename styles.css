@@ -617,6 +617,21 @@ input[type="password"] {
     grid-column-end: 4;
   }
 
+  .about-heading {
+    font-size: 3rem;
+    margin-left: 8rem;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 27rem);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+    align-content: center;
+  }
+
   .contact-us {
     width: 97%;
     border-radius: var(--border-radius);
